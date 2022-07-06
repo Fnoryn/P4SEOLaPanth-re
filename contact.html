@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8">
-	<meta name="description" content="">
+	<meta name="description" content="La Panthere: Agence webdesign à Lyon vous accompagne dans votre stratégie de création graphique de site web responsive.">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
 
@@ -12,12 +12,6 @@
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 
-
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
-	<script src="./js/jqBootstrapValidation.min.js"></script>
-	<script src="./js/formHandler.min.js"></script>
 	<title>Contact</title>
 
 
@@ -85,25 +79,25 @@
 						<form id="form_1" novalidate success-msg="Your message has been sent."
 							fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 							<div class="form-group">
-								<label>
+								<label for="name">
 									Nom
 								</label>
 								<input id="name" class="form-control" required />
 							</div>
 							<div class="form-group">
-								<label>
+								<label for="email">
 									Adresse email
 								</label>
 								<input id="email" class="form-control" type="email" required />
 							</div>
 							<div class="form-group">
-								<label>
+								<label for="input_504">
 									Comment nous avez-vous connu ?
 								</label>
 								<input class="form-control" type="email" required id="input_504" />
 							</div>
 							<div class="form-group">
-								<label>
+								<label for="message">
 									Brief de votre projet (Ajoutez autant de détails que nécessaire)
 								</label>
 							</div>
@@ -134,7 +128,7 @@
 		<!-- bloc-7 END -->
 
 		<!-- ScrollToTop Button -->
-		<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span
+		<a href="#" aria-label="bouton pour remonter la page" class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span
 				class="fa fa-chevron-up"></span></a>
 		<!-- ScrollToTop Button END-->
 	</main>
@@ -150,22 +144,22 @@
 						<div class="row row-no-gutters social">
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+									<a class="social" aria-label="Liens vers Twitter" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+									<a class="social" aria-label="Liens vers facebook" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+									<a class="social"  aria-label="Liens vers dribble" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span
+									<a class="social" aria-label="Liens vers instagram" href="index.html"><span
 											class="fa fa-instagram icon-md"></span></a>
 								</div>
 							</div>
@@ -177,7 +171,11 @@
 		<!-- Footer - bloc-8 END -->
 	</footer>
 	<!-- Principal conteneur END -->
-
+	<script src="./js/jquery-2.1.0.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/blocs.min.js"></script>
+	<script src="./js/jqBootstrapValidation.min.js"></script>
+	<script src="./js/formHandler.min.js"></script>
 
 </body>
 
